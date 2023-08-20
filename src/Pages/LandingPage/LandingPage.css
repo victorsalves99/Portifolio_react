@@ -1,0 +1,79 @@
+.Landing_page .title {
+  font-size: 60px;
+  font-weight: 900;
+  color: #002333;
+}
+.Landing_page .container_content {
+  display: flex;
+  margin-top: 60px;
+  width: 100%;
+}
+.Landing_page .container_content .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+}
+.Landing_page .container_content .description .title_description {
+  font-size: 45px;
+  color: #159a9c;
+  margin-bottom: 20px;
+}
+.Landing_page .container_content .description .content_description {
+  margin-bottom: 32px;
+}
+.Landing_page .container_content .description .technology {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 8px;
+}
+.Landing_page .container_content .description .technology .image_description {
+  width: 70;
+  height: 70;
+}
+.Landing_page .container_content .description .btn_description {
+  width: 280px;
+  height: 64px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #deefe7f5;
+  background-color: #002333d5;
+  border: none;
+}
+.Landing_page .container_content .description .btn_description:hover {
+  background-color: #002333;
+  color: #deede7;
+}
+.Landing_page .container_content .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+.Landing_page .container_content .image .triangle {
+  width: 0;
+  height: 0;
+  border-left: 160px solid transparent;
+  border-right: 160px solid transparent;
+  border-bottom: 260px solid #159a9c;
+  margin-bottom: 40px;
+  position: relative;
+}
+.Landing_page .container_content .image .triangle .perfil_description {
+  position: absolute;
+  width: 300px;
+  top: 40px;
+  left: -200px;
+}
+.Landing_page .container_content .image .social_network {
+  display: flex;
+  gap: 40px;
+}
+.Landing_page .container_content .image .social_network > a > img {
+  width: 66px;
+  height: 66px;
+}
